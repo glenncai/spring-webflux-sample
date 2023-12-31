@@ -1,0 +1,31 @@
+### Product Service API
+
+#### Get all products
+GET http://localhost:8080/product/all
+
+### Insert new product
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+  "description": "iPhone 13 Pro",
+  "price": 499
+}
+
+### Get product by id
+GET http://localhost:8080/product/659050d6458b9626bbd1c4b5
+
+### Update product
+PUT http://localhost:8080/product/659050d6458b9626bbd1c4b5
+Content-Type: application/json
+
+{
+  "description": "iPhone 14 Pro",
+  "price": 100
+}
+
+### Delete product
+DELETE http://localhost:8080/product/659050d6458b9626bbd1c4b5
+
+### Get products by price range
+GET http://localhost:8080/product/price-range?min=200&max=400
