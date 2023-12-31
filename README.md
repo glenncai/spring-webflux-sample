@@ -1,3 +1,3 @@
 # Reactive System
 
-![Reactive System Architecture](assets/reactive-system-architecture.svg)
+![Reactive System Architecture](assets/reactive-system.svg)
