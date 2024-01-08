@@ -1,6 +1,6 @@
 package com.glenncai.springwebfluxsample.userservice.service;
 
-import com.glenncai.springwebfluxsample.userservice.dto.UserDto;
+import com.glenncai.springwebfluxsample.common.dto.UserDto;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 

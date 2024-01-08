@@ -1,4 +1,4 @@
-package com.glenncai.springwebfluxsample.userservice.enums;
+package com.glenncai.springwebfluxsample.common.enums;
 
 /**
  * Transaction status.

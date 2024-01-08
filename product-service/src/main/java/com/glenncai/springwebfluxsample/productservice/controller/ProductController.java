@@ -1,6 +1,6 @@
 package com.glenncai.springwebfluxsample.productservice.controller;
 
-import com.glenncai.springwebfluxsample.productservice.dto.ProductDto;
+import com.glenncai.springwebfluxsample.common.dto.ProductDto;
 import com.glenncai.springwebfluxsample.productservice.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

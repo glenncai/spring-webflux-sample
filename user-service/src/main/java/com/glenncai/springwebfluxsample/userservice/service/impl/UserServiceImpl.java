@@ -1,6 +1,6 @@
 package com.glenncai.springwebfluxsample.userservice.service.impl;
 
-import com.glenncai.springwebfluxsample.userservice.dto.UserDto;
+import com.glenncai.springwebfluxsample.common.dto.UserDto;
 import com.glenncai.springwebfluxsample.userservice.repository.UserRepository;
 import com.glenncai.springwebfluxsample.userservice.service.UserService;
 import com.glenncai.springwebfluxsample.userservice.util.EntityDtoUtil;

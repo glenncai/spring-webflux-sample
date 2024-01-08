@@ -1,4 +1,4 @@
-package com.glenncai.springwebfluxsample.productservice.dto;
+package com.glenncai.springwebfluxsample.common.dto;
 
 import java.io.Serial;
 import java.io.Serializable;

@@ -1,7 +1,7 @@
 package com.glenncai.springwebfluxsample.userservice.service;
 
-import com.glenncai.springwebfluxsample.userservice.dto.TransactionRequestDto;
-import com.glenncai.springwebfluxsample.userservice.dto.TransactionResponseDto;
+import com.glenncai.springwebfluxsample.common.dto.TransactionRequestDto;
+import com.glenncai.springwebfluxsample.common.dto.TransactionResponseDto;
 import com.glenncai.springwebfluxsample.userservice.entity.UserTransaction;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

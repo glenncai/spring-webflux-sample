@@ -1,6 +1,6 @@
 package com.glenncai.springwebfluxsample.productservice.service.impl;
 
-import com.glenncai.springwebfluxsample.productservice.dto.ProductDto;
+import com.glenncai.springwebfluxsample.common.dto.ProductDto;
 import com.glenncai.springwebfluxsample.productservice.repository.ProductRepository;
 import com.glenncai.springwebfluxsample.productservice.service.ProductService;
 import com.glenncai.springwebfluxsample.productservice.util.EntityDtoUtil;

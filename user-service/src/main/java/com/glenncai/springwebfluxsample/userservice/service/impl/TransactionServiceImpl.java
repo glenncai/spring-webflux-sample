@@ -3,10 +3,10 @@ package com.glenncai.springwebfluxsample.userservice.service.impl;
 import static com.glenncai.springwebfluxsample.userservice.util.EntityDtoUtil.convertToDto;
 import static com.glenncai.springwebfluxsample.userservice.util.EntityDtoUtil.convertToEntity;
 
-import com.glenncai.springwebfluxsample.userservice.dto.TransactionRequestDto;
-import com.glenncai.springwebfluxsample.userservice.dto.TransactionResponseDto;
+import com.glenncai.springwebfluxsample.common.dto.TransactionRequestDto;
+import com.glenncai.springwebfluxsample.common.dto.TransactionResponseDto;
+import com.glenncai.springwebfluxsample.common.enums.TransactionStatus;
 import com.glenncai.springwebfluxsample.userservice.entity.UserTransaction;
-import com.glenncai.springwebfluxsample.userservice.enums.TransactionStatus;
 import com.glenncai.springwebfluxsample.userservice.repository.UserRepository;
 import com.glenncai.springwebfluxsample.userservice.repository.UserTransactionRepository;
 import com.glenncai.springwebfluxsample.userservice.service.TransactionService;

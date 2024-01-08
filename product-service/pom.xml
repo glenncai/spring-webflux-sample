@@ -16,35 +16,22 @@
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.common.version>0.0.1</project.common.version>
   </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>com.glenncai</groupId>
+      <artifactId>common</artifactId>
+      <version>${project.common.version}</version>
+    </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-data-mongodb-reactive</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-webflux</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.projectlombok</groupId>
-      <artifactId>lombok</artifactId>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
       <groupId>de.flapdoodle.embed</groupId>
       <artifactId>de.flapdoodle.embed.mongo.spring30x</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-test</artifactId>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.projectreactor</groupId>
-      <artifactId>reactor-test</artifactId>
-      <scope>test</scope>
     </dependency>
   </dependencies>
 

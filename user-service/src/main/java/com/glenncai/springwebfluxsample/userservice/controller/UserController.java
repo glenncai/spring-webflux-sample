@@ -1,6 +1,6 @@
 package com.glenncai.springwebfluxsample.userservice.controller;
 
-import com.glenncai.springwebfluxsample.userservice.dto.UserDto;
+import com.glenncai.springwebfluxsample.common.dto.UserDto;
 import com.glenncai.springwebfluxsample.userservice.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

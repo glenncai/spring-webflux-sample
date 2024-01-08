@@ -1,7 +1,7 @@
 package com.glenncai.springwebfluxsample.userservice.controller;
 
-import com.glenncai.springwebfluxsample.userservice.dto.TransactionRequestDto;
-import com.glenncai.springwebfluxsample.userservice.dto.TransactionResponseDto;
+import com.glenncai.springwebfluxsample.common.dto.TransactionRequestDto;
+import com.glenncai.springwebfluxsample.common.dto.TransactionResponseDto;
 import com.glenncai.springwebfluxsample.userservice.entity.UserTransaction;
 import com.glenncai.springwebfluxsample.userservice.service.TransactionService;
 import org.springframework.beans.factory.annotation.Autowired;

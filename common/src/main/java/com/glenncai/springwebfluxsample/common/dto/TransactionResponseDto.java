@@ -1,6 +1,6 @@
-package com.glenncai.springwebfluxsample.userservice.dto;
+package com.glenncai.springwebfluxsample.common.dto;
 
-import com.glenncai.springwebfluxsample.userservice.enums.TransactionStatus;
+import com.glenncai.springwebfluxsample.common.enums.TransactionStatus;
 import java.io.Serial;
 import java.io.Serializable;
 import lombok.Data;

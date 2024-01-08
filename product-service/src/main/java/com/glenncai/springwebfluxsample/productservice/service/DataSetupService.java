@@ -1,6 +1,6 @@
 package com.glenncai.springwebfluxsample.productservice.service;
 
-import com.glenncai.springwebfluxsample.productservice.dto.ProductDto;
+import com.glenncai.springwebfluxsample.common.dto.ProductDto;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
